@@ -1,1 +1,1 @@
-well, hello! hello
+Test from conflict 2! from branch BugFixed
