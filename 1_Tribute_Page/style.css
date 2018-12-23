@@ -1,0 +1,62 @@
+.nameContainer {
+	display: flex;
+	background-color: #f2e5d9;
+	border: 10px dotted black;
+	height: 200px;
+	justify-content: center;
+}
+
+.name {
+	font-family: Garamond;
+	font-size: 80px;
+	font-weight: 700;
+	margin: auto;
+	border: 10px dotted black;
+}
+
+.imgContainer {
+	display: flex;
+	background-color: #cc9966;
+	/*border: 10px dotted black;*/
+	height: 700px;
+	justify-content: center;
+}
+
+
+.pic1 {
+	margin: auto;
+	width: auto;
+	height: 600px;
+}
+
+#imgCaption {
+	font-family: Tahoma;
+	font-size: 30px;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+
+h3 {
+	margin-top: 50px;
+	line-height: 20px;
+}
+
+.historyList {
+	text-align: center;
+	/*border: 10px dotted black;*/
+	background-color: #f2e5d9;
+}
+
+.list {
+	font-family: Garamond;
+	display: inline-block;
+	line-height: 50px;
+	font-weight: 500;
+	font-size: 35px;
+	text-align: left;
+	/*border: 10px dotted black;*/
+	width: 1200px;
+}
+
+
