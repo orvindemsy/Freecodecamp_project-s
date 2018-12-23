@@ -1,9 +1,16 @@
 .nameContainer {
 	display: flex;
 	background-color: #f2e5d9;
-	border: 10px dotted black;
+	/*border: 10px dotted black;*/
 	height: 200px;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.smallCap {
+	margin: 0 auto 20px auto;
+	font-size: 30px;
+	font-family: "Courier New";
 }
 
 .name {
@@ -11,7 +18,7 @@
 	font-size: 80px;
 	font-weight: 700;
 	margin: auto;
-	border: 10px dotted black;
+	/*border: 10px dotted black;*/
 }
 
 .imgContainer {
@@ -30,8 +37,8 @@
 }
 
 #imgCaption {
-	font-family: Tahoma;
-	font-size: 30px;
+	font-family: "Courier New";
+	font-size: 20px;
 	margin-top: 20px;
 	text-align: center;
 	line-height: 50px;
@@ -56,7 +63,15 @@ h3 {
 	font-size: 35px;
 	text-align: left;
 	/*border: 10px dotted black;*/
-	width: 1200px;
+	width: 1000px;
 }
 
-
+footer {
+	font-family: Cursive;
+	margin-bottom: 50px;
+	font-size: 25px;
+	width: 1800px;
+	display: inline-block;
+	/*border: 10px dotted black;*/
+	line-height: 50px
+}
