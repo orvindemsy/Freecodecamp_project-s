@@ -1,0 +1,32 @@
+h1, h3 {
+	text-align: center;
+}
+
+.blue-square-container {
+	text-align: center;
+}
+
+.blue-square {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #0074D9;
+}
+
+.yellow-square {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #FFDC00;
+}
+
+.green-square {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 50%;
+	margin-left: -50px;
+	background-color: #3D9970;
+}
+
