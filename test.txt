@@ -1,1 +1,1 @@
-This is a test of conflict! from master
+Test from conflict 2! from branch BugFixed
