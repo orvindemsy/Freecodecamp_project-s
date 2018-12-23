@@ -1,77 +1,96 @@
 .nameContainer {
-	display: flex;
+	text-align: center;
 	background-color: #f2e5d9;
 	/*border: 10px dotted black;*/
-	height: 200px;
-	flex-direction: column;
-	align-items: center;
-}
-
-.smallCap {
-	margin: 0 auto 20px auto;
-	font-size: 30px;
-	font-family: "Courier New";
+	height: 150px;
 }
 
 .name {
-	font-family: Garamond;
-	font-size: 80px;
-	font-weight: 700;
+	display: block;
+	width: 500px;
 	margin: auto;
-	/*border: 10px dotted black;*/
+	font-family: Garamond;
+	font-size: 50px;
+	font-weight: 700;
+	/*border: 2px dotted black;*/
+	padding-top: 20px;
+}
+
+.smallCap {
+	display: block;
+	width: 500px;
+	margin: auto;
+	font-size: 20px;
+	font-family: "Courier New";
+	line-height: 2;
 }
 
 .imgContainer {
-	display: flex;
+	text-align: center;
 	background-color: #cc9966;
-	/*border: 10px dotted black;*/
-	height: 700px;
-	justify-content: center;
-}
-
-
-.pic1 {
-	margin: auto;
-	width: auto;
+	/*border: 5px dotted black;*/
 	height: 600px;
 }
 
-#imgCaption {
-	font-family: "Courier New";
-	font-size: 20px;
-	margin-top: 20px;
-	text-align: center;
-	line-height: 50px;
+
+#image {
+	border: 2px dotted red;
 }
 
-h3 {
-	margin-top: 50px;
-	line-height: 20px;
+img {
+	margin-top: 30px;
+	width: auto;
+	border: 1px dotted red;
+	height: 500px;
+}
+
+#img-caption {
+	display: block;
+	font-family: "Courier New";
+	font-size: 20px;
+	/*border: 1px dotted blue;*/
+	padding-top: 20px;
 }
 
 .historyList {
-	text-align: center;
-	/*border: 10px dotted black;*/
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*border: 1px dotted black;*/
 	background-color: #f2e5d9;
 }
 
 .list {
 	font-family: Garamond;
-	display: inline-block;
-	line-height: 50px;
+	display: block;
+	margin-top: -25px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 30px;
 	font-weight: 500;
-	font-size: 35px;
+	font-size: 20px;
 	text-align: left;
 	/*border: 10px dotted black;*/
 	width: 1000px;
 }
 
-footer {
+.quote {
+  text-align: center;
 	font-family: Cursive;
-	margin-bottom: 50px;
-	font-size: 25px;
-	width: 1800px;
-	display: inline-block;
+	margin: 0 auto 20px auto;
+	font-size: 20px;
+	width: 1200px;
+	display: block;
 	/*border: 10px dotted black;*/
-	line-height: 50px
+	line-height: 30px;
+}
+
+#tribute-link {
+	display: block;
+  margin: auto;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+  width: 800px;
+	/*border: 1px dotted black;*/
 }
