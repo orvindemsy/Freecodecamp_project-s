@@ -1,1 +1,1 @@
-well, hello! hello
+This is a test of conflict! from master
