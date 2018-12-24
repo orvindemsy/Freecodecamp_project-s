@@ -20,7 +20,7 @@
  width: 500px;
  margin: auto;
  /*border: 1px dotted black;*/
- font-size: 20px;
+ font-size: 100%;
  font-family: "Courier New";
  line-height: 2;
 }
@@ -42,7 +42,7 @@ img {
 #img-caption {
  display: block;
  font-family: "Courier New";
- font-size: 20px;
+ font-size: 100%;
  line-height: 20px;
  /*border: 1px dotted blue;*/
  padding-top: 20px;
@@ -62,12 +62,15 @@ img {
  margin-bottom: 0px;
  margin-left: auto;
  margin-right: auto;
- line-height: 30px;
  font-weight: 500;
  font-size: 20px;
  text-align: left;
  /*border: 10px dotted black;*/
- width: 1000px;
+ width: 700px;
+}
+
+li {
+  line-height: 30px;
 }
 
 .quote {
@@ -75,18 +78,18 @@ img {
  font-family: Cursive;
  margin: 0 auto 0 auto;
  font-size: 15px;
- width: 1200px;
+ max-width: 100%;
  display: block;
  /*border: 10px dotted black;*/
  line-height: 30px;
 }
 
 #tribute-link {
- display: block;
- margin: auto;
+ text-align: center;
  font-size: 20px;
+ font-weight: 600;
  margin-top: 30px;
  margin-bottom: 20px;
- width: 800px;
+ max-width: 100%;
  /*border: 1px dotted black;*/
 }
