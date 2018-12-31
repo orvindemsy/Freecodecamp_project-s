@@ -1,3 +1,4 @@
+/* CSS File for Tribute Page */
 .nameContainer {
  text-align: center;
  background-color: #f2e5d9;
@@ -35,8 +36,13 @@
 img {
  margin-top: 30px;
  width: auto;
+ max-width: 100%;
  /*border: 1px dotted red;*/
  height: 500px;
+}
+
+#img-div{
+  width:100%;
 }
 
 #img-caption {
@@ -84,7 +90,7 @@ li {
  line-height: 30px;
 }
 
-#tribute-link {
+#tribute-link1 {
  text-align: center;
  font-size: 20px;
  font-weight: 600;

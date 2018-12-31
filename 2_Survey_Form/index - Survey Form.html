@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<h1 id="title">Survey Form</h1>
+
+	<div id="survey-form-outer">
+		<form id="survey-form" method="GET" action="">
+		<p id="description">Let us know how we can improve freeCodeCamp,  made by orvindemsy</p>
+		<div class="RowTab">
+			<div class="leftTab">
+				<label id="name-label" for="name" required>* Name : </label>
+			</div>
+			<div class="rightTab">
+				<input type="text" class="inputField" name="name" id="name" placeholder="Enter your name" required>
+			</div>
+		</div>
+		<div class="RowTab">
+			<div class="leftTab">
+				<label id="email-label" for="e-mail" required>* E-mail : </label>
+			</div>
+			<div class="rightTab">
+				<input type="email" class="inputField" name="e-mail" id="email" placeholder="Enter your e-mail" required>
+			</div>
+		</div>
+
+		<div class="RowTab">
+			<div class="leftTab">
+				<label id="number-label" for="e-mail">* Age : </label>
+			</div>
+			<div class="rightTab">
+				<input type="number" class="inputField" name="age" id="number" placeholder="Enter your age" required min="5" max=80>
+			</div>
+		</div>		
+			
+
+		<div class="RowTab">
+			<div class="leftTab">
+				<label id="role" for="role"	>Select one that best describe you  : </label>
+			</div>
+			<div class="rightTab">
+				<select id="dropdown" name="role" class="inputField">
+					<option disabled option>Select one that best describe you</option>
+					<option name="role-chosed" value="student">Student</option>
+					<option name="role-chosed" value="full-time-job">Full-Time Job</option>
+					<option name="role-chosed" value="full-time-learner">Full-Time Learner</option>
+					<option name="role-chosed" value="not-say">Prefer not to say</option>
+					<option name="role-chosed" value="others">Others</option>
+				</select>
+			</div>
+		</div>
+
+
+		<div class="RowTab">
+			<div class="leftTab">
+				<label id="recommend" for="recommend">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+			</div>
+			<div class="rightTab" id="radioOption">
+				<ul style="list-style:none;">
+					<li><label><input class="userRatings" type="radio" name="pref_recc" value="definitely">Definitely</label></li>
+					<li><label><input class="userRatings" type="radio" name="pref_recc" value="maybe">Maybe</label></li>
+					<li><label><input class="userRatings" type="radio" name="pref_recc" value="not-sure">Not Sure</label></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="RowTab">
+			<div class="leftTab">
+				<label id="recommend" for="recommend">What do you like most in FCC?</label>
+			</div>
+			<div class="rightTab">
+				<select name="whatYouLikeOption" class="inputField">
+					<option disabled option>Select one that you like most</option>
+					<option name="whatYouLike">Challenges</option>
+					<option name="whatYouLike">Projects</option>
+					<option name="whatYouLike">Community</option>
+					<option name="whatYouLike">Open Source</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="RowTab">
+			<div class="leftTab">
+				<label id="recommend" for="recommend">Thinks that should be improved in the future (Check all that apply): </label>
+			</div>
+			<div class="rightTab">
+				<ul style="list-style:none;">
+					<li><label><input class="userRatings" type="checkbox" name="improvedArea" value="option1">Front-end Project</label></li>
+					<li><label><input class="userRatings" type="checkbox" name="improvedArea" value="option2">Back-end Project</label></li>
+					<li><label><input class="userRatings" type="checkbox" name="improvedArea" value="option4">Data Visualization</label></li>
+					<li><label><input class="userRatings" type="checkbox" name="improvedArea" value="option5">Challenges</label></li>
+					<li><label><input class="userRatings" type="checkbox" name="improvedArea" value="option6">Open Source Community</label></li>
+					<li><label><input class="userRatings" type="checkbox" name="improvedArea" value="option7">Gitter help rooms</label></li>
+					<li><label><input class="userRatings" type="checkbox" name="improvedArea" value="option8">Videos</label></li>
+					<li><label><input class="userRatings" type="checkbox" name="improvedArea" value="option9">Wiki</label></li>
+					<li><label><input class="userRatings" type="checkbox" name="improvedArea" value="option10">Forum</label></li>
+					<li><label><input class="userRatings" type="checkbox" name="improvedArea" value="option11">Additional Courses</label></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="RowTab">
+			<div class="leftTab">
+				<label for="comment">Any comments or suggestion?</label>
+			</div>
+			<div class="rightTab">
+				<textarea id="comment" class="inputField" name="comment" placeholder="Enter your comments here..." style="height: 50px; resize: vertical;"></textarea>
+			</div>
+		</div>
+
+		<button id="submit" type="submit" value="submitted form">Submit</button>
+		</form>
+	</div>
+</html>
