@@ -191,12 +191,12 @@ a.nav-link:hover {
 
 /*---------------------------------------*/
 /* Setting of About Us*/
-#video h2 {
+#video-container h2 {
 	font-family: Bodoni;
 	font-size: 1.8em;
 }
 
-#video iframe {
+#video {
 	padding-top: 0px;
 	padding-bottom: 20px;
 }
