@@ -1,0 +1,210 @@
+/* The CSS file for Personal Portfolio html 
+Created by: Orvin Demsy
+Date: 19-Jan-2019*/
+
+html,body {
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* NAVIGATION BAR */
+#navbar {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	border: 0px solid;
+	width: 100%;
+
+	background-color: #1c283d;
+	z-index: 1;
+	opacity: 0.85;
+}
+
+#navbar ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#navbar li {
+	margin: 10px 20px;
+	list-style-type: none;
+
+}
+
+#navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+/* WELCOME SECTION */
+#welcome-section {
+	position: relative;
+	top: 70px;
+	border: 0px solid;
+	width: 100%;
+	height: 95vh;
+	background-color: #f2fcff;
+}
+
+#welcome-section h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	display: block;
+	width: 360px;
+	height: 1em;
+	border: 0px solid;
+	margin-top: -0.5em;
+	margin-left:-180px;
+
+	font-family: Garamond;
+	color: #191919;
+}
+
+#welcome-section p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	display: block;
+	width: 360px;
+	height: 1em;
+	border: 0px solid;
+	margin-top: 1.5em;
+	margin-left:-180px;
+
+	font-size: 1.2em;
+	color: #191919;
+}
+
+/* PROJECT SECTION */
+#projects {
+	position: relative;
+	top: 70px;
+	width: 100%;
+	height: 710px;
+	border: 0px solid;
+	background-color: #27435f;
+}
+
+.project-tile {
+	
+}
+
+img#project1{
+ 	position: absolute;
+ 	left: 20%;
+ 	top: 30px;
+
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin-left: -150px;
+	
+	border: 3px solid #01307c;
+	box-shadow: 12px 12px 10px #799ad1;
+}
+
+img#project2{
+ 	position: absolute;
+ 	left: 80%;
+ 	top: 30px;
+
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin-left: -150px;
+	
+	border: 3px solid #01307c;
+	box-shadow: 12px 12px 10px #799ad1;
+}
+
+img#project3{
+ 	position: absolute;
+ 	left: 50%;
+ 	top: 500px;
+
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin-left: -150px;
+	margin-top: -150px;
+
+	border: 3px solid #01307c;
+	box-shadow: 12px 12px 10px #799ad1;
+}
+
+/* PROJECT SECTION */
+#bottom {
+	position: relative;
+	top: 30px;
+
+	height: 80px;
+	background-color: #1c283d;
+
+	line-height: 80px;
+	text-align: center;
+}
+
+#bottom p{
+	color: white;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 900px) {
+	#projects {
+		position: relative;
+		top: 70px;
+		width: 100%;
+		height: 1200px;
+		border: 0px solid;
+		background-color: #27435f;
+	}
+
+	img#project1 {
+	 	position: absolute;
+	 	left: 50%;
+	 	top: 50px;
+
+		display: block;
+		width: 300px;
+		height: 300px;
+		margin-left: -150px;
+		
+		border: 3px solid #01307c;
+		box-shadow: 12px 12px 10px #799ad1;
+	}
+
+	img#project2 {
+	 	position: absolute;
+	 	left: 50%;
+	 	top: 420px;
+
+		display: block;
+		width: 300px;
+		height: 300px;
+		margin-left: -150px;
+		
+		border: 3px solid #01307c;
+		box-shadow: 12px 12px 10px #799ad1;
+	}
+
+	img#project3 {
+	 	position: absolute;
+	 	left: 50%;
+	 	top: 950px;
+
+		display: block;
+		width: 300px;
+		height: 300px;
+		margin-left: -150px;
+		margin-top: -150px;
+
+		border: 3px solid #01307c;
+		box-shadow: 12px 12px 10px #799ad1;
+	}
+}
