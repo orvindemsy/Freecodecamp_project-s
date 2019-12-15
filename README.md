@@ -1,2 +1,2 @@
-# Freecodecamp_project-s
+# freecodecamp_project-s
 A collection of projects from freecodecamp
